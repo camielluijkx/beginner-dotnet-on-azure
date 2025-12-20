@@ -51,7 +51,7 @@ Before starting this course, you should have:
 - Familiarity with web development concepts
 - An Azure account (free tier is sufficient)
 - Visual Studio 2022 or Visual Studio Code installed
-- .NET 6.0 or .NET 7.0 SDK installed
+- .NET 6.0 SDK or later (the samples use .NET 7.0)
 - Git for source control
 
 ## 🗂️ Course Modules
@@ -179,10 +179,10 @@ Before starting this course, you should have:
 
 ## 📖 Additional Resources
 
-- [Microsoft Learn - Azure Fundamentals](https://docs.microsoft.com/learn/paths/azure-fundamentals/)
-- [ASP.NET Core Documentation](https://docs.microsoft.com/aspnet/core/)
-- [Azure Documentation](https://docs.microsoft.com/azure/)
-- [Blazor Documentation](https://docs.microsoft.com/aspnet/core/blazor/)
+- [Microsoft Learn - Azure Fundamentals](https://learn.microsoft.com/training/paths/azure-fundamentals/)
+- [ASP.NET Core Documentation](https://learn.microsoft.com/aspnet/core/)
+- [Azure Documentation](https://learn.microsoft.com/azure/)
+- [Blazor Documentation](https://learn.microsoft.com/aspnet/core/blazor/)
 - [Azure SDK for .NET](https://azure.github.io/azure-sdk-for-net/)
 
 ## 📺 Video Course
