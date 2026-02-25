@@ -1,5 +1,3 @@
-using Microsoft.AspNetCore.Components;
-using Microsoft.AspNetCore.Components.Web;
 using MunsonPickles.Web.Data;
 using MunsonPickles.Web.Services;
 
@@ -9,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 
-var sqlConnection = builder.Configuration["ConnectionStrings:SqlDb:DotAzure"];
+var sqlConnection = builder.Configuration["ConnectionStrings:SqlDb:Local"];
 
 builder.Services.AddSqlServer<PickleDbContext>(sqlConnection, options => options.EnableRetryOnFailure());
 
